@@ -1,19 +1,19 @@
-// let phone = {
-//     company: "Apple",
-//     model: "iPhone",
-//     year: 2022,
-//     color: "graphity",
-//     price: 1500,
-// }
-// console.log(phone);
+// // let phone = {
+// //     company: "Apple",
+// //     model: "iPhone",
+// //     year: 2022,
+// //     color: "graphity",
+// //     price: 1500,
+// // }
+// // console.log(phone);
 
-// let avarage = {
-//     monthOfLearning: "JavaScript",
-//     name: "Ahmad",
-//     score: [96, 93, 100, 100],
-// }
+// // let avarage = {
+// //     monthOfLearning: "JavaScript",
+// //     name: "Ahmad",
+// //     score: [96, 93, 100, 100],
+// // }
 
-// console.log(avarage.score.reduce((a, b) => a + b) / avarage.score.length);
+// // console.log(avarage.score.reduce((a, b) => a + b) / avarage.score.length);
 
 // function formatPerson(object) {
 //     return `${object.name} is ${object.age} years old and lives in ${object.location}`
@@ -55,7 +55,7 @@
 // function countProperties(object) {
 //     let cnt = null;
 //     for (const key in object) {
-//        cnt++
+//         cnt++
 //     }
 //     return cnt;
 // }
@@ -83,7 +83,7 @@
 
 // function deleteProperty(object, str) {
 //     for (const key in object) {
-//         if (key == str){
+//         if (key == str) {
 //             delete object[key];
 //         }
 //     }

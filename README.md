@@ -23,4 +23,4 @@ person.job = "Разработчик"; // Добавили новое свойс
 person.age = 26; // Изменили возраст
 Удаление свойства
 
-delete person.city;
+delete person.city;# this-
