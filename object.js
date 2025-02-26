@@ -92,3 +92,109 @@
 // console.log(deleteProperty({ a: 1, b: 2, c: 3 }, "b"));
 // console.log(deleteProperty({ name: "Alice", age: 25 }, "age"));
 // console.log(deleteProperty({ x: 10, y: 20, z: 30 }, "x"));
+
+// function uppercaseKeys(object) {
+//     let object2 = {};
+//     for (let key in object) {
+//         object2[key.toUpperCase()] = object[key];
+//     }
+//     return object2;
+// }
+// console.log(uppercaseKeys({ a: 1, b: 2 }));
+// console.log(uppercaseKeys({ name: "Alice", age: 25 }));
+// console.log(uppercaseKeys({ x: 10, y: 20 }));
+
+// let person = {
+//     name: "John",
+//     age: 30,
+//     city: "New-York",
+// };
+// console.log(Object.keys(person)); // pokazivaet klyuchi v massive
+// console.log(Object.values(person)); // pokazivaet znacheniya v massive
+// console.log(Object.entries(person)); // pokazivaet klyuchi i znacheniya v otdelnom massive
+// console.log(person.name);
+// // let { a, b, c } = person;
+// console.log(a);
+
+// let arr = [1, 2, 3];
+// let [a, b, c] = arr;
+
+// function totalAmountAdjectives(object) {
+//     let cnt = null;
+//     for (const key in object) {
+//         cnt++;
+//     }
+//     return cnt;
+// }
+// console.log(totalAmountAdjectives({ a: "moron" }));
+// console.log(totalAmountAdjectives({ a: "idiot", b: "idiot", c: "idiot" }));
+// console.log(totalAmountAdjectives({ a: "moron", b: "scumbag", c: "moron", d: "dirtbag" }));
+
+// function nSidedShape(a) {
+//     let geometry = {
+//         1: "circle",
+//         2: "semi-circle",
+//         3: "triangle",
+//         4: "square",
+//         5: "pentagon",
+//         6: "hexagon",
+//         7: "heptagon",
+//         8: "octagon",
+//         9: "nonagon",
+//         10: "decagon",
+//     };
+//     return geometry;
+// }
+// console.log(nSidedShape(geometry[1]));
+// console.log(nSidedShape(1));
+// console.log(nSidedShape(9));
+
+// function isInRange(a, object) {
+//     if(object.min < a && object.max > a) return true;
+//     else return false;
+// }
+// console.log(isInRange(4, { min: 0, max: 5 }));
+// console.log(isInRange(4, { min: 4, max: 5 }));
+// console.log(isInRange(4, { min: 6, max: 10 }));
+
+// function get(obj) {
+//     return `${obj[1]} ${obj[2]} ${obj[3]} ${obj[2]}`;
+// }
+// console.log(get({ 1: "Mommy", 2: "please", 3: "help" }));
+// console.log(get({ 1: "Me", 2: "innocent", 3: "is" }));
+// console.log(get({ 1: "Must", 2: "lawyer", 3: "call" }));
+
+// function hasKey(object, str) {
+//     for (const key in object) {
+//         if (key == str) return true
+//     }
+//     return false;
+// }
+// console.log(hasKey({ a: 44, b: 45, c: 46 }, "d"));
+// console.log(hasKey({ craves: true, midnight: true, snack: true }, "morning"));
+// console.log(hasKey({ pot: 1, tot: 2, not: 3 }, "not"));
+
+// function inkLevels(object) {
+//     let min = Infinity;
+//     for (const key in object) {
+//         if(object[key] < min) min = object[key]
+//     }
+//     return min;
+// }
+// console.log(inkLevels({ "cyan": 432, "magenta": 543, "yellow": 777 }));
+
+// function calculateDifference(object, a) {
+//     let sum = null;
+//     for (const key in object) {
+//         sum += object[key]
+//     }
+//     return sum - a;
+// }
+// console.log(calculateDifference({ "baseball bat": 20 }, 5));
+// console.log(calculateDifference({ skate: 10, painting: 20 }, 19));
+// console.log(calculateDifference({ skate: 200, painting: 200, shoes: 1 }, 400));
+
+function maximumScore(arr) {
+
+}
+console.log();
